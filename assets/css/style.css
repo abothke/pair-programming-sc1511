@@ -217,7 +217,7 @@ main {
 
 .section-fuenf .desc{
     margin-left: auto;
-    padding-left: 70vw;
+    padding-left: 45%;
     padding-right: 3em;
     padding-top: 5em;
 }
@@ -229,4 +229,37 @@ main {
     text-decoration:underline;
     font-weight: 100;
     font-family: 'Work Sans';
+}
+
+.section-fuenf h2 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Work Sans';
+    font-weight: 350;
+    letter-spacing: -0.5rem;
+}
+
+.section-fuenf p {
+    color: #666;
+    font-weight: 300;
+    font-family: 'Work Sans';
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 0;
+    font-size: 5rem;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
