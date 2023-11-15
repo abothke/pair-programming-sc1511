@@ -222,10 +222,6 @@ main {
     padding-top: 5em;
 }
 
-.section-fuenf .desc p{
-    display: flex;
-}
-
 .section-fuenf .desc a{
     text-align: left;
     color: white;
