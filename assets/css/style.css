@@ -214,19 +214,23 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
-.section-fuenf h2 {
-    text-align: center;
-    font-size: 6rem;
+
+.section-fuenf .desc{
+    margin-left: auto;
+    padding-left: 70vw;
+    padding-right: 3em;
+    padding-top: 5em;
+}
+
+.section-fuenf .desc p{
+    display: flex;
+}
+
+.section-fuenf .desc a{
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    text-decoration:underline;
+    font-weight: 100;
     font-family: 'Work Sans';
-    font-weight: 350;
-    letter-spacing: -0.5rem;
-}
-
-.section-fuenf .desc p {
-
-}
-
-.section-fuenf a {
-    color: #fff;
-    font-size: 1.5rem;
 }
