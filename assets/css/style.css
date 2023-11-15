@@ -17,4 +17,14 @@ Farben{
 color: #9e9e9e, #fff, #000, #333, #666
 }
 
-/* test */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #000;
+}
+
+/* header */
