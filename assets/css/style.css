@@ -138,14 +138,14 @@ display: flex;
 
 .section-eins {
     background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/portfolio2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .section-zwei {
     background: url(../img/portfolio3.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
@@ -156,14 +156,14 @@ display: flex;
 
 .section-drei {
     background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/portfolio4.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .section-vier {
     background: url(../img/portfolio5.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
@@ -207,5 +207,22 @@ display: flex;
 
 .section-zwei .button:hover + .section-no h3, .section-vier .button:hover + .section-no h3{
     color: black;
+}
+
+.section-fuenf {
+    background-color: #000;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-fuenf h2 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Work Sans';
+    font-weight: 350;
+    letter-spacing: -0.5rem;
+}
+
+.section-fuenf .desc {
+    
 }
 
