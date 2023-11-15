@@ -91,6 +91,17 @@ main {
     text-align: left
 }
 
+[class^="section-"] p:first-of-type::before{
+    content: " ";
+display: flex;
+    height: 1px;
+    position: relative;
+    top: 55%;
+    right: 20%;
+    background: #9E9E9E;
+    max-width: 15px;
+};
+
 [class^="section-"] h2 {
     font-size: 6em;
     font-weight: 200;
@@ -175,6 +186,11 @@ main {
     text-transform: uppercase;
 }
 
+.dark {
+    color: black;
+    border: 3px solid black;
+}
+
 .section-eins .button:hover, .section-drei .button:hover{
     background: white;
     color: black;
@@ -193,8 +209,3 @@ main {
     color: black;
 }
 
-
-.dark {
-    color: black;
-    border: 3px solid black;
-}
