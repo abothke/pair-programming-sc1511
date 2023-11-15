@@ -274,8 +274,6 @@ footer a:hover {
     top: 0;
     transform: rotate(-45deg);
     position: relative;
-    left: 45%; 
-    top: 45%;
     animation: heartbeat 1.25s infinite;
   }
   
