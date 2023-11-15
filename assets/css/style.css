@@ -13,8 +13,8 @@
     src: url(../fonts/FjallaOne-Regular.ttf);
 }
 
-Farben{
-color: #9e9e9e, #fff, #000, #333, #666
+Farben {
+    color: #9e9e9e, #fff, #000, #333, #666
 }
 
 * {
@@ -25,6 +25,176 @@ color: #9e9e9e, #fff, #000, #333, #666
 
 html {
     color: #000;
+    font-family: 'Didact Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    text-align: center;
+    gap: 3em;
+}
+
+header p {
+    font-size: 0.8em;
+}
+
+header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header h2 {
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 1em;
 }
 
 /* header */
+main {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+[class^="section-"] {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+[class^="section-"] p {
+    color: #9E9E9E;
+    text-align: left
+}
+
+[class^="section-"] h2 {
+    font-size: 6em;
+    font-weight: 200;
+    text-align: left;
+}
+
+[class^="section-"] h3 {
+    font-family: 'Fjalla One';
+    font-size: 10em;
+    font-weight: 200;
+    text-align: left;
+    color: rgba(158, 158, 158, 0.5);
+}
+
+[class^="section-"] .section-no {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 10em;
+    padding-bottom: 7.5em;
+}
+
+[class^="section-"] .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.section-zwei,
+.section-vier {
+    color: #000;
+}
+
+.section-eins {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/portfolio2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-zwei {
+    background: url(../img/portfolio3.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-zwei h3{
+    color: #666;
+}
+
+.section-drei {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/portfolio4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-vier {
+    background: url(../img/portfolio5.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-vier h3{
+    color: #666;
+}
+
+
+.button {
+    background: transparent;
+    padding: 0.7em 1em;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255, 0.5);
+    border-radius: 0px;
+    color: white;
+    line-height: 25px;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.section-eins .button:hover, .section-drei .button:hover{
+    background: white;
+    color: black;
+}
+
+.section-zwei .button:hover, .section-vier .button:hover{
+    color:white;
+    background: black;
+}
+
+.section-eins .button:hover + .section-no h3, .section-drei .button:hover + .section-no h3{
+    color: white;
+}
+
+.section-zwei .button:hover + .section-no h3, .section-vier .button:hover + .section-no h3{
+    color: black;
+}
+
+
+.dark {
+    color: black;
+    border: 3px solid black;
+}
