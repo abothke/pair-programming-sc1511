@@ -91,9 +91,9 @@ main {
     text-align: left
 }
 
-[class^="section-"] p:first-of-type::before{
+.section-eins p:first-of-type::before, .section-zwei p:first-of-type::before, .section-drei p:first-of-type::before, .section-vier p:first-of-type::before {
     content: " ";
-display: flex;
+    display: flex;
     height: 1px;
     position: relative;
     top: 55%;
@@ -222,7 +222,11 @@ display: flex;
     letter-spacing: -0.5rem;
 }
 
-.section-fuenf .desc {
-    
+.section-fuenf .desc p {
+
 }
 
+.section-fuenf a {
+    color: #fff;
+    font-size: 1.5rem;
+}
